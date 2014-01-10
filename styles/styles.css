@@ -1,0 +1,212 @@
+ footer, header, menu, nav, section
+	{
+	display: block;
+	}
+	
+
+*
+{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+}
+
+body
+{
+	font-family: verdana, arial, sans-serif;
+	background-image:url('../images/papar_texture_thumb04.jpg');
+	background-repeat:repeat;
+}
+
+input, textarea, select
+{
+	font-family: verdana, arial, sans-serif;
+	font-size:inherit;
+}
+header h1	
+	{
+	font-size: 1.9em;
+	text-align:left;
+	padding: 2% 2% 2% 2%;
+	letter-spacing:0.5em;
+	}
+		
+#container
+{
+	max-width: 62.5em; /* 1000px */
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#FBFBFB
+}
+h3, h1
+{
+	text-align:center;	
+}
+h1
+{
+	
+	font-size:1.4em;
+	letter-spacing:0.3em;
+}
+h3
+{
+	
+	font-size:0.9em;
+}
+
+#list table, #list th, #list td
+{
+	border: 2px solid #003399;
+	border-collapse:collapse;
+}
+#list td
+{
+	text-align:center;
+}
+#list table
+{
+	margin:5%;
+	width:90%;
+}
+.nav1
+{
+	width:100%;
+	background-color:#D02102;
+	/*height:1%;*/
+}
+.nav1 ul
+{ 
+	list-style: none;	
+
+}
+.nav1 li
+{
+	display:inline-block;
+	width:19%;
+	text-align:center;
+	padding: 1% 1% 1% 1%;
+	color:#FFF;
+	/*-moz-border-radius:0.5em;
+    -webkit-border-radius:0.5em;*/
+}
+.nav1 a
+{
+	
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+}
+
+.nav1 a:visited
+	{
+	color: #FFF;
+	}		
+
+.nav1 li:hover
+	{
+	background-color:#003399;
+	color:#FFF;
+	}
+#active
+	{
+	background-color:#003399;
+	color:#FFF;
+	}
+a
+{
+	color:#003399;
+}
+
+a:visited
+	{
+	color: #D02102;
+	}
+
+#Bankimage
+{
+	
+	float:left;
+	margin:2%;
+	max-width: 100%;
+}
+#settingsImage{
+	float:left;
+	}
+.content
+{
+	float: left;
+	width: 67%;
+	padding: 2% 2% 3% 0%;
+	margin-left:3%;
+
+}
+
+img
+{
+	max-width: 100%;
+	margin-left:15%;
+	margin-top:5%;
+}	
+footer 
+{
+	clear: both;
+	text-align:center;
+	font-size:small;
+	padding-bottom: 1%;
+}
+.err
+{
+	color:#D02102;
+}
+@media screen and (max-width: 30em)
+{
+#container
+{
+	max-width:100%;
+	background-color:#FBFBFB
+
+}
+	
+.nav1
+{
+	width:100%;
+	display:block;
+}
+.nav1 ul
+{
+	padding-left:0;
+}
+
+.nav1 ul li
+{
+	border-bottom:solid 0.1em #003399;
+	padding:2%;
+	display:block;
+	width:100%;
+}
+.content
+{
+	width:95%;
+	float:none;
+
+}
+	
+#Bankimage
+{
+	float:none;
+	display:block;
+	max-width:100%;
+}
+header h1 
+{
+	font-size: 1.5em;
+	margin-top: 0px;
+	letter-spacing:normal;
+}	
+	
+	
+h1 
+{
+	font-size: 1.2em;
+	margin-top: 0px;
+	letter-spacing:normal;
+}
